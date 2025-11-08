@@ -9,14 +9,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common twrp stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from mona device
 $(call inherit-product, device/motorola/mona/device.mk)
 
 PRODUCT_DEVICE := mona
-PRODUCT_NAME := omni_mona
+PRODUCT_NAME := twrp_mona
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := mona
 PRODUCT_MANUFACTURER := motorola
