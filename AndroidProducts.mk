@@ -9,6 +9,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_mona.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_mona-user \
-    omni_mona-userdebug \
-    omni_mona-eng
+    twrp_mona-user \
+    twrp_mona-userdebug \
+    twrp_mona-eng
