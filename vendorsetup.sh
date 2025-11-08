@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_mona-user
-add_lunch_combo omni_mona-userdebug
-add_lunch_combo omni_mona-eng
+add_lunch_combo twrp_mona-user
+add_lunch_combo twrp_mona-userdebug
+add_lunch_combo twrp_mona-eng
